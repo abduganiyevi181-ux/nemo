@@ -1,13 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O'yinlar Ro'yxati</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        nav {
+            margin-bottom: 30px;
+        }
+        nav a {
+            color: #0070d1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        h2 {
+            text-align: center;
+            color: #fff;
+            border-bottom: 2px solid #0070d1;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        .game-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .game-card {
+            background-color: #2a2a2a;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+        .game-icon {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+        .game-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .download-btn {
+            background-color: #0070d1;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            margin-top: 15px;
+        }
+        .download-btn:hover {
+            background-color: #0056a3;
+        }
+    </style>
 </head>
 <body>
-    <h1>create hero</h1>
 
-    <b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, quisquam.</b>
+    <nav>
+        <a href="index.html">← Asosiy sahifaga qaytish</a>
+    </nav>
+
+    <center><h2>Mavjud O'yinlar</h2></center>
+
+    <div class="game-list">
+        <!-- 1-o'yin -->
+        <div class="game-card">
+            <div class="game-icon">⚽</div>
+            <div class="game-title">FIFA 24</div>
+            <p>Futbol olamidagi eng zo'r simulyator.</p>
+            <a href="#" class="download-btn">Yuklab olish</a>
+        </div>
+
+        <!-- 2-o'yin -->
+        <div class="game-card">
+            <div class="game-icon">🕷️</div>
+            <div class="game-title">Spider-Man 2</div>
+            <p>Nyu-York bo'ylab sarguzashtlar.</p>
+            <a href="#" class="download-btn">Yuklab olish</a>
+        </div>
+
+        <!-- 3-o'yin -->
+        <div class="game-card">
+            <div class="game-icon">🏎️</div>
+            <div class="game-title">Gran Turismo 7</div>
+            <p>Haqiqiy poyga hissini tuying.</p>
+            <a href="#" class="download-btn">Yuklab olish</a>
+        </div>
+
+        <!-- 4-o'yin -->
+        <div class="game-card">
+            <div class="game-icon">🪓</div>
+            <div class="game-title">God of War</div>
+            <p>Kratosning afsonaviy hikoyasi.</p>
+            <a href="#" class="download-btn">Yuklab olish</a>
+        </div>
+    </div>
+
 </body>
 </html>
