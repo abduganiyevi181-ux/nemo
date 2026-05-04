@@ -1,0 +1,101 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        nav {
+            margin-bottom: 30px;
+        }
+        nav a {
+            color: #0070d1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        h2 {
+            text-align: center;
+            color: #fff;
+            border-bottom: 2px solid #0070d1;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        .game-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .game-card {
+            background-color: #2a2a2a;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+        .game-icon {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+        .game-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .download-btn {
+            background-color: #0070d1;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            margin-top: 15px;
+        }
+        .download-btn:hover {
+            background-color: #0056a3;
+        }
+
+
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #003087; /* PS ko'k rangi */
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 50px 20px;
+        }
+        h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+            color: #d1d1d1;
+        }
+        .main-img {
+            width: 300px;
+            margin: 20px 0;
+            border-radius: 15px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #fff;
+            color: #003087;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 25px;
+            transition: 0.3s;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #0070d1;
+            color: white;
+        }
